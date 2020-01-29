@@ -1,0 +1,145 @@
+body{
+    background-color: lightgrey;
+}
+
+nav{
+    display: inline-block;
+    background-color: #05A1F9;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    margin: 0;
+    padding: 1em;
+    display: inline-block;
+    
+}
+
+nav a{
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+
+aside{
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    background-color: grey;
+    height: 300px;
+    color: white;
+    padding: 10px;
+}
+
+form{
+    margin-left: 20px;
+    padding: 20px;
+    color: black;
+    background-color: #05A1F9;
+    border: 1px solid white;
+    height: 150px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.main .articles{
+    width: 65%;
+    float:left;
+}
+
+article{
+    background-color: white;
+    height: 250px;
+    
+}
+.main{
+    height: 650px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+}
+
+footer p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2, h3{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+p{
+    padding-left: 20px;
+}
+
+label{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+input{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 40px;
+}
+
+textarea{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+}
+
+.enviar{
+    text-align: center;
+    background-color: blue;
+    border-radius: 15px;
+    margin-top: 10px;
+    color: white;
+    width: 400px;
+}
+
+.form{
+    height: 350px;
+}
+
+.escribe{
+    width: 400px;
+}
+
+.asignaturas{
+    background-color: white;
+    color: black;
+    height: 200px;
+    padding-left: 20px;
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+aside h2{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
