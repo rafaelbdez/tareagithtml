@@ -1,0 +1,137 @@
+body{
+    background-color: lightgrey;
+}
+
+nav{
+    display: inline-block;
+    background-color: green;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    margin: 0;
+    padding: 1em;
+    display: inline-block;
+    
+}
+
+nav a{
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, th, td{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+
+aside{
+    width: 30%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: grey;
+    height: 600px;
+    color: white;
+
+}
+
+form{
+    margin-left: 20px;
+    padding: 20px;
+    color: white;
+    background-color: green;
+    border: 1px solid white;
+    height: 400px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.main .articles{
+    width: 65%;
+    float:left;
+}
+
+article{
+    background-color: white;
+    height: 175px;
+    
+}
+.main{
+    height: 500px;
+    padding: 1em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+    margin-top: 8em;
+}
+
+footer p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2, p{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+label{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+input{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 40px;
+}
+
+textarea{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+}
+
+.enviar{
+    text-align: center;
+    background-color: blue;
+    margin-top: 0px;
+    border-radius: 1em;
+    color: white;
+}
+.asignaturas{
+    background-color: beige;
+    padding-top: 1em;
+    width: 770px;
+    height: 90px;
+    margin-left: 1em;
+    list-style: none;
+}
+.titulo{
+    margin-bottom: -2em;
+}
+.ejercicio{
+    height: 225px;
+}
+.titulo2{
+    margin-bottom: -1.5em;
+}
